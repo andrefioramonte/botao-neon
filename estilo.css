@@ -1,0 +1,31 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+button{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    padding: 15px 45px;
+    font-size: 20px;
+
+    background: transparent;
+    border: 2px solid #0bfa03;
+    color: #0bfa03;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 0 15px #0bfa03, inset 0 0 100px #0bfa03;
+    text-shadow: 0 0 15px #0bfa03;
+}
+
